@@ -1,0 +1,3 @@
+[submodule "serverless-application-model"]
+	path = serverless-application-model
+	url = https://github.com/awslabs/serverless-application-model.git
