@@ -49,3 +49,7 @@ make local-nodejs
 ```sh
 make create-cloudformation-template
 ```
+
+# Import API from OpenAPI file(swagger)
+
+- Ref: https://docs.aws.amazon.com/apigateway/latest/developerguide/import-edge-optimized-api.html
