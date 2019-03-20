@@ -61,5 +61,13 @@ make create-cloudformation-template
 
 - Ref: https://serverless.com/framework/docs/providers/aws/guide/functions/
 - What will be packaged and upload? Ref: https://serverless.com/framework/docs/providers/aws/guide/packaging/
+- By default, serverless will exclude the following patterns:
 
- 
+```sh
+.git/**
+.gitignore
+.DS_Store
+npm-debug.log
+.serverless/**
+.serverless_plugins/**
+```
