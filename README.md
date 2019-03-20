@@ -60,6 +60,7 @@ make create-cloudformation-template
 # Using serverless to deploy our lambda function
 
 - Ref: https://serverless.com/framework/docs/providers/aws/guide/functions/
+- Ref: https://serverless.com/framework/docs/providers/aws/guide/serverless.yml/, we can use existing bucket name for deployment
 - What will be packaged and upload? Ref: https://serverless.com/framework/docs/providers/aws/guide/packaging/
 - By default, serverless will exclude the following patterns:
 
