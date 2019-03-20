@@ -56,4 +56,10 @@ make create-cloudformation-template
 - Ref: https://docs.aws.amazon.com/apigateway/latest/developerguide/integrating-api-with-aws-services-lambda.html
 - Ref: https://docs.aws.amazon.com/apigateway/latest/developerguide/api-as-lambda-proxy-export-swagger-with-extensions.html
 - Ref: https://github.com/amazon-archives/aws-apigateway-importer
+
+# Using serverless to deploy our lambda function
+
+- Ref: https://serverless.com/framework/docs/providers/aws/guide/functions/
+- What will be packaged and upload? Ref: https://serverless.com/framework/docs/providers/aws/guide/packaging/
+
  
